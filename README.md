@@ -7,11 +7,6 @@
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=LIYangggggg&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LIYangggggg&layout=compact&theme=radical)
 
----
-
-## 🐍 Contribution Snake
-![GitHub Snake dark](https://raw.githubusercontent.com/LIYangggggg/LIYangggggg/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![GitHub Snake light](https://raw.githubusercontent.com/LIYangggggg/LIYangggggg/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 ---
 
