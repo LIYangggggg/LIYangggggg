@@ -1,19 +1,27 @@
-## Hi there 👋
+<!-- 动态打字动画 -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?size=24&duration=4000&color=F7A500&lines=Hi+there!+👋;Welcome+to+my+GitHub;I+love+Deep+Learning+and+Coding)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?size=24&duration=4000&color=F7A500&lines=Hello+World!;Welcome+to+my+GitHub)](https://git.io/typing-svg)
+---
 
-<!--
-**LIYangggggg/LIYangggggg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 About Me
+- 💻 Deep Learning Engineer
+- 🌱 Currently working on Computer Vision & OOD Detection projects
+- 📫 How to reach me: **liyang0203@whu.edu.cn**
 
-Here are some ideas to get you started:
+---
 
+### 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=LIYangggggg&show_icons=true&theme=radical" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LIYangggggg&layout=compact&theme=radical" height="180px"/>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🐍 Contribution Snake
+![GitHub Snake dark](https://raw.githubusercontent.com/LIYangggggg/LIYangggggg/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![GitHub Snake light](https://raw.githubusercontent.com/LIYangggggg/LIYangggggg/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+---
+
+⭐️ From [LIYangggggg](https://github.com/LIYangggggg)
