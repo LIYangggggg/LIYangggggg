@@ -4,6 +4,7 @@
 **LIYangggggg/LIYangggggg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
+[![Typing SVG](https://readme-typing-svg.demolab.com?size=24&duration=4000&color=F7A500&lines=Hello+World!;Welcome+to+my+GitHub)](https://git.io/typing-svg)
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
