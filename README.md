@@ -2,7 +2,7 @@
 
 Computer Vision Algorithm Engineer focused on **OOD Detection**, **Failure Prediction**, and reliable visual recognition systems.
 
-[Open the full homepage](./index.html)
+[Open the full homepage](https://liyangggggg.github.io/LIYangggggg/)
 
 ## Research Focus
 
