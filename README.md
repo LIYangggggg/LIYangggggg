@@ -1,20 +1,26 @@
-<!-- 动态打字效果 -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Hi%2C+I'm+LIYangggggg;Deep+Learning+Engineer;Always+learning+new+things)](https://git.io/typing-svg)
+# Yang Li
 
----
+Computer Vision Algorithm Engineer focused on **OOD Detection**, **Failure Prediction**, and reliable visual recognition systems.
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=LIYangggggg&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LIYangggggg&layout=compact&theme=radical)
+[Open the full homepage](./index.html)
 
+## Research Focus
 
----
+- OOD Detection and Open-set Recognition
+- Failure Prediction and reliability assessment
+- Classification, Face Recognition, Re-ID, Detection, and Segmentation
+- Production-oriented training, evaluation, annotation, and deployment pipelines
 
-### 💡 About Me
-- 🔭 I’m currently working on **Deep Learning & Computer Vision**
-- 🌱 I’m currently learning **OOD Detection, Failure Prediction**
-- ⚡ Fun fact: *"A neural network walks into a bar…"* 🍻
+## Highlights
 
----
+- Algorithm Engineer at Hefei Intellindust Information Technology Co., Ltd.
+- B.E. / M.E. in Surveying and Mapping Engineering, Wuhan University
+- Team leader and champion of the Open-set Recognition track in ECCV 2024 Workshop OOD-CV Challenge
+- First-author work on classification reliability, OOD Detection, Failure Prediction, and automated 3D building reconstruction
 
-⭐️ From [LIYangggggg](https://github.com/LIYangggggg)
+## Selected Work
+
+- **From Misclassifications to Outliers: Joint Reliability Assessment in Classification** · TPAMI under review · First Author
+- **Zigzag-ViT: Enhancing Vision Transformer Reliability through Prompted Zigzag** · Pattern Recognition under review · First Author
+- **EdgeCrafter: A Series of Lightweight High-Performance Vision Models on Edge Devices** · TMLR under review · Co-first Author, Third Listed
+- **Automated 3D Building Reconstruction from a Single Satellite Image** · Published in Geomatics Science and Technology · First Author
