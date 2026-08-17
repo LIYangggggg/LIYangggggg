@@ -1,6 +1,6 @@
 # Yang Li
 
-Computer Vision Algorithm Engineer working on reliable visual recognition systems, with a focus on **OOD Detection**, **Failure Prediction**, and production deployment.
+Senior Algorithm Engineer working on reliable visual recognition systems, with a focus on **OOD Detection**, **Failure Prediction**, and production deployment.
 
 [Portfolio](https://liyangggggg.github.io/LIYangggggg/) / [SUREPlus](https://intellindust-ai-lab.github.io/projects/SUREPlus/) / [SSB-OSR](https://github.com/Intellindust-AI-Lab/SSB-OSR)
 
@@ -24,7 +24,8 @@ Open-set recognition      Metric learning Production vision
 
 ## Highlights
 
-- Algorithm Engineer at Hefei Intellindust Information Technology Co., Ltd.
+- Senior Algorithm Engineer at J&amp;T Express, Jun 2026 - present
+- Computer Vision Algorithm Engineer at Hefei Intellindust Information Technology Co., Ltd., Jul 2023 - Jun 2026
 - B.E. and M.E. in Surveying and Mapping Engineering from Wuhan University
 - Team leader and champion of the Open-set Recognition track, ECCV 2024 Workshop OOD-CV Challenge
 - Six invention patent applications in substantive examination
