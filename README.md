@@ -1,26 +1,32 @@
 # Yang Li
 
-Computer Vision Algorithm Engineer focused on **OOD Detection**, **Failure Prediction**, and reliable visual recognition systems.
+Computer Vision Algorithm Engineer working on reliable visual recognition systems, with a focus on **OOD Detection**, **Failure Prediction**, and production deployment.
 
-[Open the full homepage](https://liyangggggg.github.io/LIYangggggg/)
+[Portfolio](https://liyangggggg.github.io/LIYangggggg/) / [SUREPlus](https://intellindust-ai-lab.github.io/projects/SUREPlus/) / [SSB-OSR](https://github.com/Intellindust-AI-Lab/SSB-OSR)
 
-## Research Focus
+## What I work on
 
-- OOD Detection and Open-set Recognition
-- Failure Prediction and reliability assessment
-- Classification, Face Recognition, Re-ID, Detection, and Segmentation
-- Production-oriented training, evaluation, annotation, and deployment pipelines
+I develop classification, face recognition, Re-ID, detection, and segmentation systems from training and evaluation through optimization and deployment. My research asks a practical question: how can a model recognize when its own prediction is unreliable?
+
+```text
+Reliable classification   OOD detection   Failure prediction
+Open-set recognition      Metric learning Production vision
+```
+
+## Selected research
+
+| Work | Contribution | Status |
+| --- | --- | --- |
+| [From Misclassifications to Outliers](https://intellindust-ai-lab.github.io/projects/SUREPlus/) | Joint reliability assessment for classification | TPAMI, under review, first author |
+| Zigzag-ViT | Prompted zigzag interaction for reliable Vision Transformers | Pattern Recognition, under review, first author |
+| [EdgeCrafter](https://intellindust-ai-lab.github.io/projects/EdgeCrafter/) | Lightweight high-performance models for edge devices | TMLR, under review, co-first author |
+| Automated 3D Building Reconstruction from a Single Satellite Image | Automated reconstruction for mapping workflows | Published, first author |
 
 ## Highlights
 
 - Algorithm Engineer at Hefei Intellindust Information Technology Co., Ltd.
-- B.E. / M.E. in Surveying and Mapping Engineering, Wuhan University
-- Team leader and champion of the Open-set Recognition track in ECCV 2024 Workshop OOD-CV Challenge
-- First-author work on classification reliability, OOD Detection, Failure Prediction, and automated 3D building reconstruction
+- B.E. and M.E. in Surveying and Mapping Engineering from Wuhan University
+- Team leader and champion of the Open-set Recognition track, ECCV 2024 Workshop OOD-CV Challenge
+- Six invention patent applications in substantive examination
 
-## Selected Work
-
-- **From Misclassifications to Outliers: Joint Reliability Assessment in Classification** · TPAMI under review · First Author
-- **Zigzag-ViT: Enhancing Vision Transformer Reliability through Prompted Zigzag** · Pattern Recognition under review · First Author
-- **EdgeCrafter: A Series of Lightweight High-Performance Vision Models on Edge Devices** · TMLR under review · Co-first Author, Third Listed
-- **Automated 3D Building Reconstruction from a Single Satellite Image** · Published in Geomatics Science and Technology · First Author
+For the full experience, research notes, and project links, visit my [personal homepage](https://liyangggggg.github.io/LIYangggggg/).

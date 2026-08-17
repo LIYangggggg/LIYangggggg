@@ -3,254 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="李洋，计算机视觉算法工程师，主要关注 OOD Detection、Failure Prediction 与视觉模型可靠性。"
-      data-i18n-attr="content:metaDescription"
-    />
-    <title>李洋 | Computer Vision Algorithm Engineer</title>
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="李洋，计算机视觉算法工程师，专注 OOD Detection、Failure Prediction 与可靠视觉系统。" data-i18n-attr="content:metaDescription" />
+    <title>李洋 | 可靠计算机视觉</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body data-site-style="formal">
-    <div class="scroll-meter" aria-hidden="true"></div>
-
+  <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="回到首页">
-        <span class="brand-mark">LY</span>
-        <span data-i18n="brandName">李洋</span>
-      </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="#profile" data-i18n="navProfile">画像</a>
-        <a href="#work" data-i18n="navWork">经历</a>
-        <a href="#research" data-i18n="navResearch">成果</a>
+      <a class="brand" href="#top" aria-label="回到首页" data-i18n-attr="aria-label:backToTop"><span class="brand-mark" aria-hidden="true">YL</span><span data-i18n="brandName">李洋</span></a>
+      <nav class="site-nav" aria-label="主导航" data-i18n-attr="aria-label:navigationLabel">
+        <a href="#focus" data-i18n="navFocus">方向</a><a href="#experience" data-i18n="navExperience">经历</a><a href="#research" data-i18n="navResearch">研究</a>
       </nav>
-      <button class="lang-toggle" type="button" data-i18n="languageButton" aria-label="Switch language">
-        English
-      </button>
+      <button class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero shell" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">AI Security · Computer Vision · Model Reliability</p>
-          <h1 id="hero-title" data-i18n="heroName">李洋</h1>
-          <p class="hero-role" data-i18n="heroRole">算法工程师（计算机视觉）</p>
-          <p class="hero-summary" data-i18n="heroSummary">
-            武汉大学本硕，具备 AI 安防算法工程经验。主要关注 OOD Detection、Failure Prediction 与视觉模型可靠性，也长期参与分类、Re-ID、检测与分割模型的训练、优化和业务落地。
-          </p>
-          <div class="hero-actions">
-            <a class="action secondary" href="#work">
-              <span class="action-icon" aria-hidden="true">↧</span>
-              <span data-i18n="viewExperience">查看经历</span>
-            </a>
-            <a class="action primary" href="#research">
-              <span class="action-icon" aria-hidden="true">§</span>
-              <span data-i18n="viewPapers">查看论文</span>
-            </a>
+          <p class="eyebrow">Computer Vision / Model Reliability</p>
+          <h1 id="hero-title" data-i18n="heroTitle">让视觉模型知道，<br />什么时候不该自信。</h1>
+          <p class="hero-summary" data-i18n="heroSummary">我是李洋，一名计算机视觉算法工程师。研究 OOD Detection 与 Failure Prediction，也把分类、Re-ID、检测和分割模型落到真实业务中。</p>
+          <div class="hero-actions"><a class="button primary" href="#research" data-i18n="viewResearch">查看研究</a><a class="button secondary" href="https://github.com/LIYangggggg" target="_blank" rel="noreferrer">GitHub</a></div>
+        </div>
+        <figure class="portrait-wrap">
+          <div class="portrait-backdrop" aria-hidden="true"></div>
+          <img src="assets/avatar.jpg" alt="李洋的肖像" data-i18n-attr="alt:avatarAlt" width="480" height="480" />
+          <figcaption data-i18n="portraitCaption">计算机视觉算法工程师<br />武汉大学本硕</figcaption>
+        </figure>
+      </section>
+
+      <section class="proof shell" aria-label="职业亮点" data-i18n-attr="aria-label:proofLabel">
+        <div><strong>ECCV 2024</strong><span data-i18n="proofAward">OOD-CV 开集识别赛道冠军</span></div>
+        <div><strong>6</strong><span data-i18n="proofPatents">项发明专利进入实审</span></div>
+        <div><strong>3</strong><span data-i18n="proofPapers">篇可靠性与边缘视觉在投论文</span></div>
+        <div><strong>2023</strong><span data-i18n="proofIndustry">起专注工业视觉落地</span></div>
+      </section>
+
+      <section id="focus" class="section shell focus-section">
+        <div class="section-intro"><h2 data-i18n="focusTitle">研究可靠性，也交付可用性。</h2><p data-i18n="focusLead">我的工作横跨研究、训练、评估与部署。核心不是堆模型，而是让视觉系统在真实数据和真实约束下更可信。</p></div>
+        <div class="focus-grid">
+          <article class="focus-primary"><span class="focus-code">RISK</span><h3 data-i18n="focusReliabilityTitle">模型可靠性</h3><p data-i18n="focusReliabilityBody">统一考虑误分类、分布外输入和开集样本，让模型的置信度真正反映风险。</p><div class="keyword-row"><span>OOD Detection</span><span>Failure Prediction</span><span>Open-set Recognition</span></div></article>
+          <article><span class="focus-code">SHIP</span><h3 data-i18n="focusDeliveryTitle">视觉算法落地</h3><p data-i18n="focusDeliveryBody">覆盖分类、人脸、Re-ID、检测与分割，从数据到部署完成闭环。</p></article>
+          <article><span class="focus-code">LOOP</span><h3 data-i18n="focusToolingTitle">数据与工具链</h3><p data-i18n="focusToolingBody">建设训练框架与自动化标注平台，缩短样本回流和模型迭代链路。</p></article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="shell">
+          <div class="section-intro compact"><h2 data-i18n="experienceTitle">从研究验证到业务上线</h2></div>
+          <div class="experience-list">
+            <article>
+              <div class="experience-meta"><time data-i18n="jobDate">2023.07 - 至今</time><span data-i18n="jobCompany">合肥英特灵达信息技术有限公司</span></div>
+              <div class="experience-copy"><h3 data-i18n="jobTitle">计算机视觉算法工程师</h3><p data-i18n="jobSummary">负责 AI 安防场景中的算法研发与部署，主导或参与人脸识别、分类可靠性、Metric Learning、检测、分割和自动标注平台建设。</p><ul><li data-i18n="jobItemOne">从 0 到 1 搭建分类与可靠性训练框架，覆盖摔倒、遮挡、烟火和人体结构化等任务。</li><li data-i18n="jobItemTwo">主导基于 Fast-ReID 的训练、评估与部署链路，并优化损失函数、特征对齐和检索后处理。</li><li data-i18n="jobItemThree">通过数据清洗、误报挖掘、样本重构和后处理优化，提高复杂现场中的系统稳定性。</li></ul></div>
+            </article>
+            <article>
+              <div class="experience-meta"><time>2017.09 - 2023.06</time><span data-i18n="educationSchool">武汉大学</span></div>
+              <div class="experience-copy"><h3 data-i18n="educationTitle">测绘工程 本科 / 硕士</h3><p data-i18n="educationSummary">从测绘工程延伸到视觉感知、三维重建与深度学习研究，形成面向工业场景的算法工程能力。</p></div>
+            </article>
           </div>
         </div>
+      </section>
 
-        <div class="hero-visual" aria-label="个人头像与能力摘要">
-          <div class="portrait-frame">
-            <img src="assets/avatar.png" alt="李洋头像" data-i18n-attr="alt:avatarAlt" />
-          </div>
-          <div class="orbit-tag tag-a">Classification</div>
-          <div class="orbit-tag tag-b">OOD</div>
-          <div class="orbit-tag tag-c">Failure</div>
-          <div class="orbit-tag tag-d">Face</div>
-          <div class="orbit-tag tag-e">ReID</div>
+      <section id="research" class="section shell research-section">
+        <div class="section-intro"><h2 data-i18n="researchTitle">代表研究</h2><p data-i18n="researchLead">围绕分类可靠性、边缘视觉和三维重建，选择最能代表当前方向的工作。</p></div>
+        <div class="paper-list">
+          <article><div class="paper-meta"><span>TPAMI</span><span data-i18n="underReview">在投</span></div><h3>From Misclassifications to Outliers: Joint Reliability Assessment in Classification</h3><p data-i18n="sureBody">把误分类检测与分布外检测放进统一风险建模框架，同时判断模型是否可能答错，以及输入是否偏离已知分布。</p><a href="https://intellindust-ai-lab.github.io/projects/SUREPlus/" target="_blank" rel="noreferrer">SUREPlus <span aria-hidden="true">↗</span></a></article>
+          <article><div class="paper-meta"><span>Pattern Recognition</span><span data-i18n="underReview">在投</span></div><h3>Zigzag-ViT: Enhancing Vision Transformer Reliability through Prompted Zigzag</h3><p data-i18n="zigzagBody">用 prompted zigzag 机制重组特征交互路径，增强模型区分正常样本、错误预测和异常输入的能力。</p></article>
+          <article><div class="paper-meta"><span>TMLR</span><span data-i18n="underReview">在投</span></div><h3>EdgeCrafter: A Series of Lightweight High-Performance Vision Models on Edge Devices</h3><p data-i18n="edgeBody">面向资源受限设备，在计算开销、模型容量与任务性能之间进行系统权衡。</p><a href="https://intellindust-ai-lab.github.io/projects/EdgeCrafter/" target="_blank" rel="noreferrer"><span data-i18n="projectPage">项目主页</span> <span aria-hidden="true">↗</span></a></article>
+          <article><div class="paper-meta"><span data-i18n="published">已发表</span><span data-i18n="firstAuthor">第一作者</span></div><h3 data-i18n="mappingTitle">单张卫星影像的建筑自动化三维重建</h3><p data-i18n="mappingBody">从建筑目标提取、结构推断到几何表达生成，探索单张卫星影像的自动化三维重建流程。</p></article>
         </div>
       </section>
 
-      <section class="impact-strip" aria-label="研究与工程方向">
-        <div class="impact-item">
-          <strong>Classification</strong>
-          <span>Reliable visual classification</span>
-        </div>
-        <div class="impact-item">
-          <strong>OOD</strong>
-          <span>Out-of-Distribution Detection</span>
-        </div>
-        <div class="impact-item">
-          <strong>Failure</strong>
-          <span>Failure Prediction</span>
-        </div>
-        <div class="impact-item">
-          <strong>Face</strong>
-          <span>Face recognition systems</span>
-        </div>
-        <div class="impact-item">
-          <strong>ReID</strong>
-          <span>Metric learning & retrieval</span>
-        </div>
-      </section>
-
-      <section id="profile" class="section section-light">
-        <div class="section-heading">
-          <p class="section-kicker">Profile</p>
-          <h2 data-i18n="profileHeading">一个偏工程落地的视觉算法工程师</h2>
-        </div>
-        <div class="profile-grid">
-          <article class="profile-card">
-            <span class="card-index">01</span>
-            <h3>OOD Detection</h3>
-            <p data-i18n="profileOod">
-              关注分布外样本识别、开集识别与分类边界可靠性，让模型知道自己什么时候“不该自信”。
-            </p>
-          </article>
-          <article class="profile-card">
-            <span class="card-index">02</span>
-            <h3>Failure Prediction</h3>
-            <p data-i18n="profileFailure">
-              围绕误分类预测、失败样本挖掘、质量评估与风险分数建模，提升视觉系统在真实场景中的可控性。
-            </p>
-          </article>
-          <article class="profile-card">
-            <span class="card-index">03</span>
-            <h3 data-i18n="profileDeployTitle">视觉算法落地</h3>
-            <p data-i18n="profileDeploy">
-              参与分类、Re-ID、检测与分割等任务研发，负责训练、评估、优化与部署链路，把算法推进到业务现场。
-            </p>
-          </article>
-          <article class="profile-card">
-            <span class="card-index">04</span>
-            <h3 data-i18n="profileToolTitle">数据与工具链</h3>
-            <p data-i18n="profileTool">
-              参与训练框架和 Web 自动化标注平台建设，打通数据上传、自动预标注、结果回查与人工修订闭环。
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="work" class="section section-dark">
-        <div class="section-heading">
-          <p class="section-kicker">Experience</p>
-          <h2 data-i18n="experienceHeading">从研究验证到业务上线</h2>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-date" data-i18n="jobDate">2023.07 - 至今</div>
-            <div class="timeline-content">
-              <h3 data-i18n="jobTitle">合肥英特灵达信息技术有限公司 · 算法工程师</h3>
-              <p data-i18n="jobSummary">
-                负责 AI 安防场景中的视觉算法研发与落地，重点沉淀分类可靠性、OOD Detection、Failure Prediction 与工程化训练部署能力。
-              </p>
-              <ul class="detail-list">
-                <li data-i18n="jobFace">主导人脸识别、质量评估、姿态估计与抓拍策略优化，围绕复杂工地场景持续优化误报控制与后处理策略，落地黑名单过滤、双重底库校验、抓拍筛选等机制，提升系统稳定性与上线可用性。</li>
-                <li data-i18n="jobClassification">从 0 到 1 搭建分类与可靠性 AI 训练框架，负责公司大部分分类算法研发与迭代，覆盖摔倒检测、摄像头遮挡、烟火分类、人体结构化等任务。</li>
-                <li data-i18n="jobReliability">围绕数据清洗、样本重构、误报样本挖掘、不平衡样本处理与后处理增强，持续优化模型稳定性。</li>
-                <li data-i18n="jobReid">主导 Metric Learning / Re-ID 框架建设，基于 Fast-ReID 打通训练、评估与部署链路，结合业务数据特性优化损失函数、特征对齐与检索后处理策略。</li>
-                <li data-i18n="jobDetection">参与公司 SOTA 检测模型研发与工程落地，主要负责分割模块设计、训练与效果优化；结合蒸馏与模块改进方案，推动检测与分割任务在实际场景中的效果提升与可部署性优化。</li>
-                <li data-i18n="jobAnnotation">参与搭建面向业务侧的 Web 端自动化标注平台，支持数据上传、自动预标注、结果回查与人工修订闭环，提升数据生产效率，降低模型迭代中的标注成本与沟通成本。</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">2017.09 - 2023.06</div>
-            <div class="timeline-content">
-              <h3 data-i18n="educationTitle">武汉大学 · 测绘工程 本科 / 硕士</h3>
-              <p data-i18n="educationSummary">
-                以测绘工程为基础，持续扩展到视觉感知、三维重建与深度学习算法研究，并形成面向工业场景的工程能力。
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-light">
-        <div class="section-heading">
-          <p class="section-kicker">Stack</p>
-          <h2 data-i18n="stackHeading">技术栈与关注方向</h2>
-        </div>
-        <div class="stack-board" aria-label="技术栈">
-          <span>OOD Detection</span>
-          <span>Failure Prediction</span>
-          <span>Open-set Recognition</span>
-          <span>Reliability Assessment</span>
-          <span>Python</span>
-          <span>PyTorch</span>
-          <span>Linux</span>
-          <span>Git</span>
-          <span>Classification</span>
-          <span>Object Detection</span>
-          <span>Segmentation</span>
-          <span>Fast-ReID</span>
-          <span>Metric Learning</span>
-          <span>Model Distillation</span>
-          <span>Vibe Coding</span>
-        </div>
-      </section>
-
-      <section id="research" class="section section-dark">
-        <div class="section-heading">
-          <p class="section-kicker">Research & Awards</p>
-          <h2 data-i18n="researchHeading">论文、竞赛与专利</h2>
-        </div>
-        <h3 class="subsection-title" data-i18n="underReviewHeading">在投论文</h3>
-        <div class="research-grid">
-          <article class="research-card accent-blue">
-            <p class="research-label">TPAMI · Under Review</p>
-            <h3 class="paper-title">From Misclassifications to Outliers: Joint Reliability Assessment in Classification</h3>
-            <p class="paper-role" data-i18n="firstAuthor">第一作者</p>
-            <p class="paper-summary" data-i18n="sureSummary">
-              本文面向分类系统中的可靠性评估问题，将 misclassification detection 与 out-of-distribution detection 统一到同一风险建模框架下，旨在同时刻画模型“会不会答错”与样本“是否偏离已知分布”两类失效模式。
-            </p>
-            <a href="https://intellindust-ai-lab.github.io/projects/SUREPlus/" target="_blank" rel="noreferrer">SUREPlus</a>
-          </article>
-          <article class="research-card accent-red">
-            <p class="research-label">Pattern Recognition · Under Review</p>
-            <h3 class="paper-title">Zigzag-ViT: Enhancing Vision Transformer Reliability through Prompted Zigzag</h3>
-            <p class="paper-role" data-i18n="firstAuthor">第一作者</p>
-            <p class="paper-summary" data-i18n="zigzagSummary">
-              本文关注 Vision Transformer 在可靠性评估中的表达瓶颈，通过 prompted zigzag 机制重组特征交互路径，提升模型对正常样本、错误预测样本与异常样本之间细粒度差异的分辨能力。
-            </p>
-          </article>
-          <article class="research-card accent-yellow">
-            <p class="research-label">TMLR · Under Review</p>
-            <h3 class="paper-title">EdgeCrafter: A Series of Lightweight High-Performance Vision Models on Edge Devices</h3>
-            <p class="paper-role" data-i18n="coFirstThird">兕一第三</p>
-            <p class="paper-summary" data-i18n="edgeSummary">
-              本文围绕边缘设备上的高效视觉建模，设计一系列轻量化视觉模型，在计算开销、模型容量与任务性能之间进行系统性权衡，以支撑资源受限场景下的实际部署。
-            </p>
-            <a href="https://intellindust-ai-lab.github.io/projects/EdgeCrafter/" target="_blank" rel="noreferrer" data-i18n="projectPage">Project Page</a>
-          </article>
-        </div>
-
-        <h3 class="subsection-title" data-i18n="publishedHeading">已发表 Paper</h3>
-        <div class="research-grid single-row">
-          <article class="research-card accent-ink">
-            <p class="research-label" data-i18n="mappingJournal">《测绘科学》（北核）</p>
-            <h3 class="paper-title" data-i18n="mappingTitle">单张卫星影像的建筑自动化三维重建</h3>
-            <p class="paper-role" data-i18n="firstAuthor">第一作者</p>
-            <p class="paper-summary" data-i18n="mappingSummary">
-              论文面向测绘自动化建模需求，探索从单张卫星影像到建筑三维结构的自动化重建流程，覆盖建筑目标提取、结构推断与几何表达生成等关键环节。
-            </p>
-          </article>
-        </div>
-
-        <h3 class="subsection-title" data-i18n="awardsHeading">竞赛与专利</h3>
-        <div class="research-grid compact-row">
-          <article class="research-card accent-green">
-            <p class="research-label">Competition</p>
-            <h3>ECCV 2024 Workshop OOD-CV Challenge</h3>
-            <p data-i18n="competitionSummary">Open-set Recognition 赛道冠军，队长。</p>
-            <a href="https://github.com/Intellindust-AI-Lab/SSB-OSR" target="_blank" rel="noreferrer">SSB-OSR</a>
-          </article>
-          <article class="research-card accent-cyan">
-            <p class="research-label">Patent</p>
-            <h3 data-i18n="patentTitle">6 项发明专利</h3>
-            <p data-i18n="patentSummary">6 项发明专利申请进入实质审查阶段。</p>
-          </article>
-        </div>
-      </section>
-
+      <section class="section shell closing-section"><div><h2 data-i18n="closingTitle">关注可靠视觉系统的下一步。</h2><p data-i18n="closingBody">查看我的开集识别竞赛方案、研究项目和公开代码。</p></div><div class="closing-links"><a href="https://github.com/Intellindust-AI-Lab/SSB-OSR" target="_blank" rel="noreferrer">SSB-OSR <span aria-hidden="true">↗</span></a><a href="https://github.com/LIYangggggg" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></section>
     </main>
 
-    <footer class="site-footer">
-      <span data-i18n="footerName">© 2026 李洋</span>
-      <span data-i18n="footerBuilt">Built for GitHub Pages</span>
-    </footer>
-
+    <footer class="site-footer shell"><span>© 2026 <span data-i18n="brandName">李洋</span></span><span data-i18n="footerNote">可靠性研究 / 工业视觉实践</span></footer>
     <script src="script.js" defer></script>
   </body>
 </html>
