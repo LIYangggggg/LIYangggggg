@@ -10,40 +10,46 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="回到首页" data-i18n-attr="aria-label:backToTop"><span class="brand-mark" aria-hidden="true">YL</span><span data-i18n="brandName">李洋</span></a>
+      <a class="brand" href="#top" aria-label="回到首页" data-i18n-attr="aria-label:backToTop"><span class="brand-mark" aria-hidden="true">I/L</span><span>IAN LI</span></a>
       <nav class="site-nav" aria-label="主导航" data-i18n-attr="aria-label:navigationLabel">
-        <a href="#focus" data-i18n="navFocus">方向</a><a href="#experience" data-i18n="navExperience">经历</a><a href="#research" data-i18n="navResearch">研究</a>
+        <a href="#focus"><span>01</span><span data-i18n="navFocus">方向</span></a><a href="#experience"><span>02</span><span data-i18n="navExperience">经历</span></a><a href="#research"><span>03</span><span data-i18n="navResearch">研究</span></a>
       </nav>
       <button class="lang-toggle" type="button" aria-label="Switch to English">EN</button>
     </header>
 
     <main id="top">
       <section class="hero shell" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Yang Li / Computer Vision Research</p>
-          <h1 id="hero-title" data-i18n="heroTitle">可靠视觉，<br />不止于准确率。</h1>
+        <div class="hero-lockup">
+          <p class="eyebrow">PORTFOLIO / 2026</p>
+          <h1 id="hero-title">
+            <span class="hero-name" aria-hidden="true">IAN<br />LI</span>
+            <span class="hero-discipline" aria-hidden="true">ALGORITHM<br />ENGINEER</span>
+            <span class="sr-only">Ian Li, Algorithm Engineer</span>
+          </h1>
+        </div>
+        <aside class="hero-profile">
+          <figure class="portrait-wrap">
+            <img src="assets/avatar.jpg" alt="李洋的肖像" data-i18n-attr="alt:avatarAlt" width="480" height="480" />
+            <figcaption><strong data-i18n="brandName">李洋</strong><span data-i18n="portraitCaption">计算机视觉算法工程师<br />武汉大学本硕</span></figcaption>
+          </figure>
           <p class="hero-summary" data-i18n="heroSummary">研究 OOD Detection 与 Failure Prediction，也把分类、Re-ID、检测和分割模型落到真实业务中。</p>
           <div class="hero-actions"><a class="button primary" href="#research" data-i18n="viewResearch">查看研究</a><a class="button secondary" href="https://github.com/LIYangggggg" target="_blank" rel="noreferrer">GitHub</a></div>
-        </div>
-        <figure class="portrait-wrap">
-          <img src="assets/avatar.jpg" alt="李洋的肖像" data-i18n-attr="alt:avatarAlt" width="480" height="480" />
-          <figcaption><strong data-i18n="brandName">李洋</strong><span data-i18n="portraitCaption">计算机视觉算法工程师<br />武汉大学本硕</span></figcaption>
-        </figure>
+        </aside>
       </section>
 
       <section class="proof shell" aria-label="职业亮点" data-i18n-attr="aria-label:proofLabel">
-        <div><strong>ECCV 2024</strong><span data-i18n="proofAward">OOD-CV 开集识别赛道冠军</span></div>
-        <div><strong>6</strong><span data-i18n="proofPatents">项发明专利进入实审</span></div>
-        <div><strong>3</strong><span data-i18n="proofPapers">篇可靠性与边缘视觉在投论文</span></div>
-        <div><strong>2023</strong><span data-i18n="proofIndustry">起专注工业视觉落地</span></div>
+        <div><span class="proof-index">01</span><strong>ECCV 2024</strong><span data-i18n="proofAward">OOD-CV 开集识别赛道冠军</span></div>
+        <div><span class="proof-index">02</span><strong>6</strong><span data-i18n="proofPatents">项发明专利进入实审</span></div>
+        <div><span class="proof-index">03</span><strong>3</strong><span data-i18n="proofPapers">篇可靠性与边缘视觉在投论文</span></div>
+        <div><span class="proof-index">04</span><strong>2023</strong><span data-i18n="proofIndustry">起专注工业视觉落地</span></div>
       </section>
 
       <section id="focus" class="section shell focus-section">
         <div class="section-intro"><h2 data-i18n="focusTitle">研究可靠性，也交付可用性。</h2><p data-i18n="focusLead">我的工作横跨研究、训练、评估与部署。核心不是堆模型，而是让视觉系统在真实数据和真实约束下更可信。</p></div>
         <div class="focus-grid">
-          <article class="focus-primary"><span class="focus-code">RISK</span><h3 data-i18n="focusReliabilityTitle">模型可靠性</h3><p data-i18n="focusReliabilityBody">统一考虑误分类、分布外输入和开集样本，让模型的置信度真正反映风险。</p><div class="keyword-row"><span>OOD Detection</span><span>Failure Prediction</span><span>Open-set Recognition</span></div></article>
-          <article><span class="focus-code">SHIP</span><h3 data-i18n="focusDeliveryTitle">视觉算法落地</h3><p data-i18n="focusDeliveryBody">覆盖分类、人脸、Re-ID、检测与分割，从数据到部署完成闭环。</p></article>
-          <article><span class="focus-code">LOOP</span><h3 data-i18n="focusToolingTitle">数据与工具链</h3><p data-i18n="focusToolingBody">建设训练框架与自动化标注平台，缩短样本回流和模型迭代链路。</p></article>
+          <article class="focus-primary"><span class="focus-code">01</span><h3 data-i18n="focusReliabilityTitle">模型可靠性</h3><p data-i18n="focusReliabilityBody">统一考虑误分类、分布外输入和开集样本，让模型的置信度真正反映风险。</p><div class="keyword-row"><span>OOD Detection</span><span>Failure Prediction</span><span>Open-set Recognition</span></div></article>
+          <article><span class="focus-code">02</span><h3 data-i18n="focusDeliveryTitle">视觉算法落地</h3><p data-i18n="focusDeliveryBody">覆盖分类、人脸、Re-ID、检测与分割，从数据到部署完成闭环。</p></article>
+          <article><span class="focus-code">03</span><h3 data-i18n="focusToolingTitle">数据与工具链</h3><p data-i18n="focusToolingBody">建设训练框架与自动化标注平台，缩短样本回流和模型迭代链路。</p></article>
         </div>
       </section>
 
