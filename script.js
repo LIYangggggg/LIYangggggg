@@ -10,7 +10,7 @@
     heroTitle: 'Reliable vision,<br />beyond accuracy.',
     heroSummary: 'I research OOD Detection and Failure Prediction, while building production systems for classification, Re-ID, detection, and segmentation.',
     viewResearch: 'View research', avatarAlt: 'Portrait of Yang Li', portraitCaption: 'Computer Vision Algorithm Engineer<br />B.E. and M.E., Wuhan University',
-    proofLabel: 'Career highlights', proofAward: 'OOD-CV Open-set Recognition champion', proofPatents: 'invention patents in substantive examination', proofPapers: 'papers under review on reliability and edge vision', proofIndustry: 'building production vision systems',
+    proofLabel: 'Career highlights', proofAward: 'OOD-CV Open-set Recognition champion', proofPatents: 'invention patents in substantive examination', proofPapers: 'papers on reliability and edge vision', proofIndustry: 'building production vision systems',
     focusTitle: 'Research reliability. Deliver usability.', focusLead: 'My work spans research, training, evaluation, and deployment. The goal is not more models, but more trustworthy systems under real data and real constraints.',
     focusReliabilityTitle: 'Model reliability', focusReliabilityBody: 'Treat misclassification, out-of-distribution inputs, and open-set samples as connected risks, so confidence reflects what can actually go wrong.',
     focusDeliveryTitle: 'Vision deployment', focusDeliveryBody: 'Build classification, face, Re-ID, detection, and segmentation systems across the full path from data to deployment.',
@@ -24,7 +24,7 @@
     researchTitle: 'Selected research', researchLead: 'Work that best represents my current direction across classification reliability, edge vision, and 3D reconstruction.', underReview: 'Under review',
     sureBody: 'A unified risk framework for misclassification and out-of-distribution detection, estimating both whether a prediction may be wrong and whether an input departs from known data.',
     zigzagBody: 'A prompted zigzag mechanism that reorganizes feature interaction paths to better separate normal samples, wrong predictions, and abnormal inputs.',
-    edgeBody: 'A family of edge vision models that systematically balances compute, model capacity, and task performance.', projectPage: 'Project page', published: 'Published', firstAuthor: 'First author',
+    edgeBody: 'A family of edge vision models that systematically balances compute, model capacity, and task performance.', projectPage: 'Project page', accepted: 'Accepted', published: 'Published', firstAuthor: 'First author',
     mappingTitle: 'Automated 3D Building Reconstruction from a Single Satellite Image', mappingBody: 'An automated pipeline spanning building extraction, structural inference, and geometric representation from a single satellite image.',
     closingTitle: 'Following the next step in reliable vision.', closingBody: 'Explore my open-set recognition solution, research projects, and public code.', footerNote: 'Reliability research / production vision practice'
   };

@@ -19,7 +19,7 @@ Open-set recognition      Metric learning Production vision
 | --- | --- | --- |
 | [From Misclassifications to Outliers](https://intellindust-ai-lab.github.io/projects/SUREPlus/) | Joint reliability assessment for classification | TPAMI, under review, first author |
 | Zigzag-ViT | Prompted zigzag interaction for reliable Vision Transformers | Pattern Recognition, under review, first author |
-| [EdgeCrafter](https://intellindust-ai-lab.github.io/projects/EdgeCrafter/) | Lightweight high-performance models for edge devices | TMLR, under review, co-first author |
+| [EdgeCrafter](https://intellindust-ai-lab.github.io/projects/EdgeCrafter/) | Lightweight high-performance models for edge devices | TMLR, accepted, co-first author |
 | Automated 3D Building Reconstruction from a Single Satellite Image | Automated reconstruction for mapping workflows | Published, first author |
 
 ## Highlights
