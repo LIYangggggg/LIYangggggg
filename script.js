@@ -5,11 +5,11 @@
   const navLinks = Array.from(document.querySelectorAll('.site-nav a'));
 
   const english = {
-    pageTitle: 'Computer Vision Engineer | Reliable Computer Vision',
+    pageTitle: 'Yang Li | Reliable Computer Vision',
     metaDescription: 'Yang Li is a computer vision algorithm engineer focused on OOD Detection, Failure Prediction, and reliable visual systems.',
     backToTop: 'Back to top', navigationLabel: 'Primary navigation', brandName: 'Yang Li',
     navFocus: 'Focus', navExperience: 'Experience', navResearch: 'Research',
-    skipContent: 'Skip to content', siteName: 'Computer Vision Engineer', heroAffiliation: 'Senior Algorithm Engineer',
+    skipContent: 'Skip to content', heroNameLatin: '李洋', heroAffiliation: 'Computer Vision Algorithm Engineer',
     heroSummary: 'I work on computer vision research and engineering, focusing on OOD detection, failure prediction, and open-set recognition. I also train, evaluate, and deploy classification, face recognition, Re-ID, detection, and segmentation models.',
     avatarAlt: 'Portrait of Yang Li', portraitCaption: 'B.E. and M.E. in Surveying and Mapping Engineering, Wuhan University.',
     sureAlt: 'SUREPlus: classification and reliability comparison of CE and CutMix', edgeAlt: 'EdgeCrafter task-specialized distillation pipeline',
@@ -24,7 +24,7 @@
     focusDeliveryTitle: 'Vision deployment', focusDeliveryBody: 'Build classification, face, Re-ID, detection, and segmentation systems across the full path from data to deployment.',
     focusToolingTitle: 'Data and tooling', focusToolingBody: 'Develop training frameworks and automated annotation platforms that shorten feedback and iteration loops.',
     experienceTitle: 'Experience & education', experienceDetails: 'View responsibilities',
-    jntDate: 'Jun 2026 - Present', jntCompany: 'J&T Express', jntTitle: 'Senior Algorithm Engineer',
+    jntDate: 'Jun 2026 - Present', jntCompany: 'J&T Express', jntTitle: 'Computer Vision Algorithm Engineer',
     jobDate: 'Jul 2023 - Jun 2026', jobCompany: 'Hefei Intellindust Information Technology Co., Ltd.', jobTitle: 'Computer Vision Algorithm Engineer',
     jobSummary: 'Develop and deploy algorithms for AI security scenarios, leading or contributing to face recognition, classification reliability, Metric Learning, detection, segmentation, and automated annotation tooling.',
     jobItemOne: 'Built a classification and reliability training framework from scratch for fall, occlusion, smoke and fire, and human-structure tasks.',
@@ -65,7 +65,7 @@
   function applyLanguage(language) {
     const dictionary = language === 'en' ? english : chinese;
     document.documentElement.lang = language === 'en' ? 'en' : 'zh-CN';
-    document.title = language === 'en' ? english.pageTitle : '视觉算法工程师 | 可靠计算机视觉';
+    document.title = language === 'en' ? english.pageTitle : '李洋 | 可靠计算机视觉';
     document.querySelectorAll('[data-i18n]').forEach((element) => {
       const value = dictionary[element.dataset.i18n];
       if (value) element.innerHTML = value;
