@@ -5,11 +5,11 @@
   const navLinks = Array.from(document.querySelectorAll('.site-nav a'));
 
   const english = {
-    pageTitle: 'Yang Li | Reliable Computer Vision',
+    pageTitle: 'Computer Vision Engineer | Reliable Computer Vision',
     metaDescription: 'Yang Li is a computer vision algorithm engineer focused on OOD Detection, Failure Prediction, and reliable visual systems.',
     backToTop: 'Back to top', navigationLabel: 'Primary navigation', brandName: 'Yang Li',
     navFocus: 'Focus', navExperience: 'Experience', navResearch: 'Research',
-    skipContent: 'Skip to content', heroNameLatin: '李洋', heroAffiliation: 'Senior Algorithm Engineer',
+    skipContent: 'Skip to content', siteName: 'Computer Vision Engineer', heroAffiliation: 'Senior Algorithm Engineer',
     heroSummary: 'I work on computer vision research and engineering, focusing on OOD detection, failure prediction, and open-set recognition. I also train, evaluate, and deploy classification, face recognition, Re-ID, detection, and segmentation models.',
     avatarAlt: 'Portrait of Yang Li', portraitCaption: 'B.E. and M.E. in Surveying and Mapping Engineering, Wuhan University.',
     sureAlt: 'SUREPlus: classification and reliability comparison of CE and CutMix', edgeAlt: 'EdgeCrafter task-specialized distillation pipeline',
@@ -65,7 +65,7 @@
   function applyLanguage(language) {
     const dictionary = language === 'en' ? english : chinese;
     document.documentElement.lang = language === 'en' ? 'en' : 'zh-CN';
-    document.title = language === 'en' ? english.pageTitle : '李洋 | 可靠计算机视觉';
+    document.title = language === 'en' ? english.pageTitle : '视觉算法工程师 | 可靠计算机视觉';
     document.querySelectorAll('[data-i18n]').forEach((element) => {
       const value = dictionary[element.dataset.i18n];
       if (value) element.innerHTML = value;
