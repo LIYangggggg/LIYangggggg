@@ -4,44 +4,77 @@
   const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
   const navLinks = Array.from(document.querySelectorAll('.site-nav a'));
 
-  const english = {
-    pageTitle: 'Yang Li | Reliable Computer Vision',
-    metaDescription: 'Yang Li is a computer vision algorithm engineer focused on OOD Detection, Failure Prediction, and reliable visual systems.',
-    backToTop: 'Back to top', navigationLabel: 'Primary navigation', brandName: 'Yang Li',
-    navFocus: 'Focus', navExperience: 'Experience', navResearch: 'Research',
-    skipContent: 'Skip to content', heroNameLatin: '李洋', heroAffiliation: 'Computer Vision Algorithm Engineer',
-    heroSummary: 'I work on computer vision research and engineering, focusing on OOD detection, failure prediction, and open-set recognition. I also train, evaluate, and deploy classification, face recognition, Re-ID, detection, and segmentation models.',
-    avatarAlt: 'Portrait of Yang Li', portraitCaption: 'B.E. and M.E. in Surveying and Mapping Engineering, Wuhan University.',
-    sureAlt: 'SUREPlus: classification and reliability comparison of CE and CutMix', edgeAlt: 'EdgeCrafter task-specialized distillation pipeline',
-    researchTitle: 'Selected research', researchLead: 'Classification reliability, edge vision, and 3D reconstruction.',
-    underReview: 'Under review', accepted: 'Accepted', published: 'Published', firstAuthor: 'First author', coFirstAuthor: 'Co-first author', projectPage: 'Project page',
-    sureBody: 'A unified risk framework for misclassification and out-of-distribution detection, estimating both whether a prediction may be wrong and whether an input departs from known data.',
-    edgeBody: 'A family of edge vision models that systematically balances compute, model capacity, and task performance.',
-    zigzagBody: 'A prompted zigzag mechanism that reorganizes feature interaction paths to better separate normal samples, wrong predictions, and abnormal inputs.',
-    mappingTitle: 'Automated 3D Building Reconstruction from a Single Satellite Image', mappingBody: 'An automated pipeline spanning building extraction, structural inference, and geometric representation from a single satellite image.',
-    focusTitle: 'Research & engineering',
-    focusReliabilityTitle: 'Model reliability', focusReliabilityBody: 'Treat misclassification, out-of-distribution inputs, and open-set samples as connected risks, so confidence reflects what can actually go wrong.',
-    focusDeliveryTitle: 'Vision deployment', focusDeliveryBody: 'Build classification, face, Re-ID, detection, and segmentation systems across the full path from data to deployment.',
-    focusToolingTitle: 'Data and tooling', focusToolingBody: 'Develop training frameworks and automated annotation platforms that shorten feedback and iteration loops.',
-    experienceTitle: 'Experience & education', experienceDetails: 'View responsibilities',
-    jntDate: 'Jun 2026 - Present', jntCompany: 'J&T Express', jntTitle: 'Computer Vision Algorithm Engineer',
-    jobDate: 'Jul 2023 - Jun 2026', jobCompany: 'Hefei Intellindust Information Technology Co., Ltd.', jobTitle: 'Computer Vision Algorithm Engineer',
-    jobSummary: 'Develop and deploy algorithms for AI security scenarios, leading or contributing to face recognition, classification reliability, Metric Learning, detection, segmentation, and automated annotation tooling.',
-    jobItemOne: 'Built a classification and reliability training framework from scratch for fall, occlusion, smoke and fire, and human-structure tasks.',
-    jobItemTwo: 'Led a Fast-ReID training, evaluation, and deployment pipeline, improving losses, feature alignment, and retrieval post-processing.',
-    jobItemThree: 'Improved stability in complex sites through data cleaning, false-positive mining, sample reconstruction, and post-processing.',
-    educationSchool: 'Wuhan University', educationTitle: 'B.E. / M.E. in Surveying and Mapping Engineering', educationSummary: 'Extended a mapping background into visual perception, 3D reconstruction, and deep learning research, forming an engineering practice for industrial vision.',
-    highlightsTitle: 'Awards & patents', challengeAward: 'Team leader and champion of the Open-set Recognition track.',
-    patentTitle: 'Invention patents', patentSummary: 'Six invention patent applications in substantive examination.',
-    footerNote: 'Reliability research / production vision'
+  const chinese = {
+    pageTitle: '李洋 | 可靠计算机视觉',
+    metaDescription: '李洋，J&T Express 视觉算法工程师。研究方向包括分布外检测、预测错误识别与开集识别，具有工业视觉模型训练、评估和部署经验。',
+    backToTop: '回到首页',
+    navigationLabel: '主导航',
+    brandName: '李洋',
+    navFocus: '方向',
+    navExperience: '经历',
+    navResearch: '研究',
+    skipContent: '跳到主要内容',
+    heroNameLatin: 'Yang Li',
+    heroAffiliation: '视觉算法工程师',
+    heroSummary: '我研究视觉识别模型在真实场景中的可靠性，重点关注如何识别错误预测、分布外输入和训练时未见过的类别。我也从事工业视觉系统研发，负责从数据处理、模型训练和评估到部署的工作。',
+    avatarAlt: '李洋的肖像',
+    portraitCaption: '本科及硕士均毕业于武汉大学测绘工程专业。',
+    sureAlt: 'SUREPlus: CE 与 CutMix 的分类及可靠性评估对比',
+    edgeAlt: 'EdgeCrafter 的任务专用知识蒸馏流程',
+    researchTitle: '代表性研究',
+    researchLead: '研究涵盖分类模型可靠性、端侧视觉与遥感三维重建。',
+    accepted: '已接收',
+    published: '已发表',
+    firstAuthor: '第一作者',
+    coFirstAuthor: '共同第一作者',
+    projectPage: '项目主页',
+    sureBody: '提出统一的风险建模框架，将误分类检测与分布外检测纳入同一评估流程，用于识别模型的不可靠预测。',
+    edgeBody: '通过任务专用知识蒸馏训练紧凑型 Vision Transformer，面向资源受限设备上的密集预测任务。',
+    zigzagBody: '通过提示引导的之字形交互重组 Vision Transformer 的特征交互路径，以区分正确预测、错误预测和分布外输入。',
+    mappingJournal: '《测绘科学》（北大核心）',
+    mappingTitle: '单张卫星影像的建筑自动化三维重建',
+    mappingBody: '从单张卫星影像中提取建筑，推断其结构并生成三维几何模型。',
+    challengeWinner: 'SSB 开集识别赛道第 1 名',
+    challengeTitle: 'SURE-OOD 开集识别方案',
+    teamLead: '团队负责人',
+    reportFirstAuthor: '技术报告第一作者',
+    challengeBody: '赛道评估图像分类器能否识别训练中未见过的类别。团队在 SURE 框架上构建 SURE-OOD，结合测试时增强和分布外评分，区分已知类别图像与未知类别图像。',
+    challengeCode: '代码与比赛结果',
+    focusTitle: '研究与工程方向',
+    focusReliabilityTitle: '模型可靠性',
+    focusReliabilityBody: '研究如何利用模型置信度检测误分类，以及如何识别超出训练分布的输入和训练时未见过的类别。',
+    focusDeliveryTitle: '工业视觉系统',
+    focusDeliveryBody: '开发和部署图像分类、人脸识别、重识别（Re-ID）、目标检测及图像分割模型，并通过现场数据评估性能。',
+    focusToolingTitle: '训练与数据工具',
+    focusToolingBody: '开发模型训练框架和自动标注工具，将现场样本用于后续训练与评估。',
+    experienceTitle: '工作与教育经历',
+    experienceDetails: '查看项目职责',
+    jntDate: '2026.06 - 至今',
+    jntCompany: 'J&T Express',
+    jntTitle: '视觉算法工程师',
+    jobDate: '2023.07 - 2026.06',
+    jobCompany: '合肥英特灵达信息技术有限公司',
+    jobTitle: '计算机视觉算法工程师',
+    jobSummary: '面向安防场景研发并部署视觉算法，参与人脸识别、分类可靠性、度量学习、目标检测、图像分割及自动标注工具的开发。',
+    jobItemOne: '搭建分类模型训练与可靠性评估框架，支持摔倒、遮挡、烟火检测及人体结构化等任务。',
+    jobItemTwo: '主导基于 Fast-ReID 的模型训练、评估与部署，优化损失函数、特征对齐和检索后处理。',
+    jobItemThree: '针对复杂场景中的误报，进行数据清洗、误报样本挖掘和样本重构，并优化后处理。',
+    educationSchool: '武汉大学',
+    educationTitle: '测绘工程 本科 / 硕士',
+    educationSummary: '研究涉及遥感影像解译与三维重建，包括从单张卫星影像自动重建建筑。',
+    highlightsTitle: '其他成果',
+    patentTitle: '发明专利',
+    patentSummary: '已获授权的发明专利为《一种模型训练方法、图像分类方法、装置及电子设备》。',
+    patentPublication: '申请公布 CN121074477A',
+    footerNote: '计算机视觉研究与工程'
   };
 
-  const chinese = {};
-  document.querySelectorAll('[data-i18n]').forEach((element) => { chinese[element.dataset.i18n] = element.innerHTML; });
+  const english = { pageTitle: document.title };
+  document.querySelectorAll('[data-i18n]').forEach((element) => { english[element.dataset.i18n] = element.textContent; });
   document.querySelectorAll('[data-i18n-attr]').forEach((element) => {
     element.dataset.i18nAttr.split(';').forEach((binding) => {
       const [attribute, key] = binding.split(':').map((item) => item.trim());
-      chinese[key] = element.getAttribute(attribute);
+      english[key] = element.getAttribute(attribute);
     });
   });
 
@@ -65,10 +98,10 @@
   function applyLanguage(language) {
     const dictionary = language === 'en' ? english : chinese;
     document.documentElement.lang = language === 'en' ? 'en' : 'zh-CN';
-    document.title = language === 'en' ? english.pageTitle : '李洋 | 可靠计算机视觉';
+    document.title = dictionary.pageTitle;
     document.querySelectorAll('[data-i18n]').forEach((element) => {
       const value = dictionary[element.dataset.i18n];
-      if (value) element.innerHTML = value;
+      if (value) element.textContent = value;
     });
     document.querySelectorAll('[data-i18n-attr]').forEach((element) => {
       element.dataset.i18nAttr.split(';').forEach((binding) => {
@@ -79,8 +112,6 @@
     });
     languageButton.textContent = language === 'en' ? '中' : 'EN';
     languageButton.setAttribute('aria-label', language === 'en' ? '切换到中文' : 'Switch to English');
-    document.body.dataset.language = language;
-    savePreference('preferredLanguage', language);
     updateThemeButton();
   }
 
@@ -101,7 +132,11 @@
   });
   document.querySelectorAll('.hero').forEach((section) => observer.observe(section));
 
-  languageButton.addEventListener('click', () => applyLanguage(document.body.dataset.language === 'en' ? 'zh' : 'en'));
+  languageButton.addEventListener('click', () => {
+    const language = document.documentElement.lang === 'en' ? 'zh' : 'en';
+    applyLanguage(language);
+    savePreference('homepageLanguage', language);
+  });
   themeButton.addEventListener('click', () => {
     const theme = themeButton.getAttribute('aria-pressed') === 'true' ? 'light' : 'dark';
     document.documentElement.dataset.theme = theme;
@@ -111,5 +146,6 @@
   systemTheme.addEventListener('change', updateThemeButton);
   const savedTheme = readPreference('preferredTheme');
   if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
-  applyLanguage(readPreference('preferredLanguage') === 'en' ? 'en' : 'zh');
+  if (readPreference('homepageLanguage') === 'zh') applyLanguage('zh');
+  else updateThemeButton();
 })();
